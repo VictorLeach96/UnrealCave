@@ -1,0 +1,794 @@
+﻿Log file open, 01/08/15 21:15:15
+LogInit:Display: Running engine for game: Assignment1
+LogInit: Version: 4.6.1-2386410+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Dec 11 2014 21:31:39
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.01.08-21.15.15:755][  0]LogTaskGraph: Started task graph with 3 named threads and 8 total threads.
+[2015.01.08-21.15.15:847][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.01.08-21.15.15:877][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.01.08-21.15.15:885][  0]LogInit: Object subsystem initialized
+[2015.01.08-21.15.15:887][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.01.08-21.15.15:887][  0]LogConsoleResponse:Warning:   Found in ini file '//bournemouth.ac.uk/data/student/home/DEC/i7671967/Unreal Projects/Assignment1/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.01.08-21.15.15:887][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.01.08-21.15.15:887][  0]LogConsoleResponse:Warning:   Found in ini file '//bournemouth.ac.uk/data/student/home/DEC/i7671967/Unreal Projects/Assignment1/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.01.08-21.15.15:888][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2015.01.08-21.15.15:888][  0]LogInit: Selected Device Profile: [Windows]
+[2015.01.08-21.15.15:888][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.01.08-21.15.15:927][  0]LogInit: Computer: PC40578
+[2015.01.08-21.15.15:927][  0]LogInit: User: i7671967
+[2015.01.08-21.15.15:927][  0]LogInit: CPU Page size=4096, Cores=6
+[2015.01.08-21.15.15:927][  0]LogInit: High frequency timer resolution =3.409785 MHz
+[2015.01.08-21.15.15:927][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx) Virtual=8192.0GB
+[2015.01.08-21.15.15:927][  0]LogMemory: Platform Memory Stats for Windows
+[2015.01.08-21.15.15:927][  0]LogMemory: Process Physical Memory: 51.57 MB used, 51.57 MB peak
+[2015.01.08-21.15.15:927][  0]LogMemory: Process Virtual Memory: 27.34 MB used, 27.35 MB peak
+[2015.01.08-21.15.15:927][  0]LogMemory: Physical Memory: 4610.41 MB used, 32691.82 MB total
+[2015.01.08-21.15.15:927][  0]LogMemory: Virtual Memory: 268.00 MB used, 8388608.00 MB total
+[2015.01.08-21.15.15:964][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA Quadro K4000 (Feature Level 11_0)
+[2015.01.08-21.15.15:964][  0]LogD3D11RHI: Adapter has 3015MB of dedicated video memory, 0MB of dedicated system memory, and 16089MB of shared system memory, 2 output[s]
+[2015.01.08-21.15.15:964][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.01.08-21.15.15:969][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.01.08-21.15.15:976][  0]LogD3D11RHI: Async texture creation enabled
+[2015.01.08-21.15.16:039][  0]LogTextLocalizationManager: The requested culture ('en_GB') has no localization data; parent culture's ('en') localization data will be used.
+[2015.01.08-21.15.16:181][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.01.08-21.15.22:145][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.08-21.15.22:634][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.08-21.15.22:698][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.01.08-21.15.22:743][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/i7671967/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.01.08-21.15.22:743][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/i7671967/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2015.01.08-21.15.22:746][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file //bournemouth.ac.uk/data/student/home/DEC/i7671967/Unreal Projects/Assignment1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.01.08-21.15.22:746][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.01.08-21.15.22:814][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.01.08-21.15.22:828][  0]LogDerivedDataCache: Using Local data cache path C:/Users/i7671967/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.01.08-21.15.22:998][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2015.01.08-21.15.23:187][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.01.08-21.15.23:187][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.01.08-21.15.23:648][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.01.08-21.15.23:757][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.01.08-21.15.24:907][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.01.08-21.15.25:114][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for //bournemouth.ac.uk/data/student/home/DEC/i7671967/Unreal Projects/Assignment1/Binaries/Win64. Error: 0
+[2015.01.08-21.15.25:370][  0]SourceControl: Info Source control is disabled
+[2015.01.08-21.15.25:370][  0]SourceControl: Info Source control is disabled
+[2015.01.08-21.15.25:380][  0]SourceControl: Info Source control is disabled
+[2015.01.08-21.15.25:549][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2015.01.08-21.15.25:549][  0]LogUObjectAllocator: 5168128 out of 0 bytes used by permanent object pool.
+[2015.01.08-21.15.25:607][  0]LogEngine: Initializing Engine...
+[2015.01.08-21.15.25:777][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.01.08-21.15.25:792][  0]LogInit: FAudioDevice initialized.
+[2015.01.08-21.15.25:818][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.01.08-21.15.25:841][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/i7671967/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.01.08-21.15.25:849][  0]LogInit: Texture streaming: Enabled
+[2015.01.08-21.15.25:886][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.01.08-21.15.25:886][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.1-2386410+++depot+UE4-Releases+4.6
+[2015.01.08-21.15.25:888][  0]LogAnalytics: SetUserId a6fb1a44ee5149dfc5e096d4918a155e
+[2015.01.08-21.15.25:888][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.01.08-21.15.25:904][  0]LogInit: Transaction tracking system initialized
+[2015.01.08-21.15.26:026][  0]BlueprintLog: New page: Editor Load
+[2015.01.08-21.15.26:061][  0]LogAssetRegistry: FAssetRegistry took 0.0095 seconds to start up
+[2015.01.08-21.15.26:062][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.01.08-21.15.26:624][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.08-21.15.26:985][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.01.08-21.15.27:272][  0]LogConsoleResponse:Display: 
+[2015.01.08-21.15.27:326][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.01.08-21.15.27:568][  0]SourceControl: Info Source control is disabled
+[2015.01.08-21.15.27:568][  0]Cmd: MAP LOAD FILE="//bournemouth.ac.uk/data/student/home/DEC/i7671967/Unreal Projects/Assignment1/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.01.08-21.15.27:571][  0]LightingResults: New page: Lighting Build
+[2015.01.08-21.15.27:583][  0]MapCheck: New page: Map Check
+[2015.01.08-21.15.27:583][  0]LightingResults: New page: Lighting Build
+[2015.01.08-21.15.27:591][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013389940
+[2015.01.08-21.15.36:107][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.01.08-21.15.36:107][  0]LogAIModule: Creating AISystem for world Example_Map
+[2015.01.08-21.15.36:108][  0]Cmd: MAP CHECKDEP
+[2015.01.08-21.15.36:108][  0]MapCheck: New page: Example_Map - 8 Jan 2015 21:15:36
+[2015.01.08-21.15.36:480][  0]MapCheck:Warning: Warning SM_Lamp_Ceiling StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Blueprint_CeilingLight5_702.SM_Lamp_Ceiling : Externally referenced 
+[2015.01.08-21.15.36:480][  0]MapCheck:Warning: Warning SM_Lamp_Ceiling StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Blueprint_CeilingLight_1047.SM_Lamp_Ceiling : Externally referenced 
+[2015.01.08-21.15.36:480][  0]MapCheck:Warning: Warning SM_Lamp_Ceiling StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Blueprint_CeilingLight2_1082.SM_Lamp_Ceiling : Externally referenced 
+[2015.01.08-21.15.36:480][  0]MapCheck:Warning: Warning SM_Lamp_Ceiling StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Blueprint_CeilingLight3_1109.SM_Lamp_Ceiling : Externally referenced 
+[2015.01.08-21.15.36:480][  0]MapCheck:Warning: Warning SM_Lamp_Ceiling StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Blueprint_CeilingLight4_1136.SM_Lamp_Ceiling : Externally referenced 
+[2015.01.08-21.15.36:480][  0]MapCheck:Warning: Warning SM_Lamp_Ceiling StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Blueprint_CeilingLight6_1167.SM_Lamp_Ceiling : Externally referenced 
+[2015.01.08-21.15.36:480][  0]MapCheck:Warning: Warning SM_Lamp_Ceiling StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Blueprint_CeilingLight7_1194.SM_Lamp_Ceiling : Externally referenced 
+[2015.01.08-21.15.36:480][  0]MapCheck:Warning: Warning SM_Lamp_Ceiling StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Blueprint_CeilingLight8_1221.SM_Lamp_Ceiling : Externally referenced 
+[2015.01.08-21.15.36:480][  0]MapCheck:Warning: Warning SM_Lamp_Ceiling StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Blueprint_CeilingLight9_1740.SM_Lamp_Ceiling : Externally referenced 
+[2015.01.08-21.15.36:481][  0]MapCheck:Warning: Warning SM_Lamp_Wall StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Blueprint_WallSconce2_885.SM_Lamp_Wall : Externally referenced 
+[2015.01.08-21.15.36:481][  0]MapCheck:Warning: Warning ModelComponent_460 ModelComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.ModelComponent_460 : Externally referenced 
+[2015.01.08-21.15.36:481][  0]MapCheck:Warning: Warning ModelComponent_471 ModelComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.ModelComponent_471 : Externally referenced 
+[2015.01.08-21.15.36:481][  0]MapCheck:Warning: Warning ModelComponent_472 ModelComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.ModelComponent_472 : Externally referenced 
+[2015.01.08-21.15.36:481][  0]MapCheck:Warning: Warning Model_0 Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.Model_0 : Externally referenced 
+[2015.01.08-21.15.36:481][  0]MapCheck:Warning: Warning Polys_215 Polys /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush2.Model_5.Polys_215 : Externally referenced 
+[2015.01.08-21.15.36:481][  0]MapCheck:Warning: Warning Polys_3222 Polys /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush30.Model_5.Polys_3222 : Externally referenced 
+[2015.01.08-21.15.36:481][  0]MapCheck:Warning: Warning ModelComponent_460 ModelComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.ModelComponent_460 : Externally referenced 
+[2015.01.08-21.15.36:484][  0]MapCheck:Warning: Warning ModelComponent_471 ModelComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.ModelComponent_471 : Externally referenced 
+[2015.01.08-21.15.36:484][  0]MapCheck:Warning: Warning ModelComponent_472 ModelComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.ModelComponent_472 : Externally referenced 
+[2015.01.08-21.15.36:484][  0]MapCheck:Warning: Warning Model_0 Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.Model_0 : Externally referenced 
+[2015.01.08-21.15.36:485][  0]MapCheck:Warning: Warning Polys_215 Polys /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush2.Model_5.Polys_215 : Externally referenced 
+[2015.01.08-21.15.36:485][  0]MapCheck:Warning: Warning Polys_3222 Polys /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush30.Model_5.Polys_3222 : Externally referenced 
+[2015.01.08-21.15.36:485][  0]MapCheck:Warning: Warning ModelComponent_474 ModelComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.ModelComponent_474 : Externally referenced 
+[2015.01.08-21.15.36:485][  0]MapCheck:Warning: Warning Model_0 Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.Model_0 : Externally referenced 
+[2015.01.08-21.15.36:486][  0]MapCheck:Warning: Warning Polys_3831 Polys /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush25.Model_8.Polys_3831 : Externally referenced 
+[2015.01.08-21.15.36:486][  0]MapCheck:Warning: Warning ModelComponent_474 ModelComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.ModelComponent_474 : Externally referenced 
+[2015.01.08-21.15.36:486][  0]MapCheck:Warning: Warning Model_0 Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.Model_0 : Externally referenced 
+[2015.01.08-21.15.36:486][  0]MapCheck:Warning: Warning Polys_4997 Polys /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush24_8.Model_9.Polys_4997 : Externally referenced 
+[2015.01.08-21.15.36:487][  0]MapCheck:Warning: Warning ModelComponent_451 ModelComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.ModelComponent_451 : Externally referenced 
+[2015.01.08-21.15.36:487][  0]MapCheck:Warning: Warning ModelComponent_452 ModelComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.ModelComponent_452 : Externally referenced 
+[2015.01.08-21.15.36:487][  0]MapCheck:Warning: Warning ModelComponent_453 ModelComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.ModelComponent_453 : Externally referenced 
+[2015.01.08-21.15.36:487][  0]MapCheck:Warning: Warning ModelComponent_454 ModelComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.ModelComponent_454 : Externally referenced 
+[2015.01.08-21.15.36:488][  0]MapCheck:Warning: Warning ModelComponent_455 ModelComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.ModelComponent_455 : Externally referenced 
+[2015.01.08-21.15.36:488][  0]MapCheck:Warning: Warning ModelComponent_456 ModelComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.ModelComponent_456 : Externally referenced 
+[2015.01.08-21.15.36:488][  0]MapCheck:Warning: Warning ModelComponent_458 ModelComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.ModelComponent_458 : Externally referenced 
+[2015.01.08-21.15.36:489][  0]MapCheck:Warning: Warning ModelComponent_459 ModelComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.ModelComponent_459 : Externally referenced 
+[2015.01.08-21.15.36:489][  0]MapCheck:Warning: Warning ModelComponent_460 ModelComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.ModelComponent_460 : Externally referenced 
+[2015.01.08-21.15.36:489][  0]MapCheck:Warning: Warning ModelComponent_463 ModelComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.ModelComponent_463 : Externally referenced 
+[2015.01.08-21.15.36:489][  0]MapCheck:Warning: Warning ModelComponent_464 ModelComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.ModelComponent_464 : Externally referenced 
+[2015.01.08-21.15.36:489][  0]MapCheck:Warning: Warning ModelComponent_465 ModelComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.ModelComponent_465 : Externally referenced 
+[2015.01.08-21.15.36:491][  0]MapCheck:Warning: Warning ModelComponent_467 ModelComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.ModelComponent_467 : Externally referenced 
+[2015.01.08-21.15.36:492][  0]MapCheck:Warning: Warning ModelComponent_468 ModelComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.ModelComponent_468 : Externally referenced 
+[2015.01.08-21.15.36:492][  0]MapCheck:Warning: Warning ModelComponent_469 ModelComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.ModelComponent_469 : Externally referenced 
+[2015.01.08-21.15.36:492][  0]MapCheck:Warning: Warning ModelComponent_470 ModelComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.ModelComponent_470 : Externally referenced 
+[2015.01.08-21.15.36:493][  0]MapCheck:Warning: Warning ModelComponent_471 ModelComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.ModelComponent_471 : Externally referenced 
+[2015.01.08-21.15.36:493][  0]MapCheck:Warning: Warning ModelComponent_473 ModelComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.ModelComponent_473 : Externally referenced 
+[2015.01.08-21.15.36:493][  0]MapCheck:Warning: Warning ModelComponent_474 ModelComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.ModelComponent_474 : Externally referenced 
+[2015.01.08-21.15.36:493][  0]MapCheck:Warning: Warning ModelComponent_475 ModelComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.ModelComponent_475 : Externally referenced 
+[2015.01.08-21.15.36:494][  0]MapCheck:Warning: Warning ModelComponent_476 ModelComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.ModelComponent_476 : Externally referenced 
+[2015.01.08-21.15.36:494][  0]MapCheck:Warning: Warning Model_0 Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.Model_0 : Externally referenced 
+[2015.01.08-21.15.36:494][  0]MapCheck:Warning: Warning Polys_254 Polys /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush11.Model_8.Polys_254 : Externally referenced 
+[2015.01.08-21.15.36:494][  0]MapCheck:Warning: Warning Polys_68 Polys /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush15.Model_7.Polys_68 : Externally referenced 
+[2015.01.08-21.15.36:495][  0]MapCheck:Warning: Warning Polys_4320 Polys /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush22.Model_14.Polys_4320 : Externally referenced 
+[2015.01.08-21.15.36:495][  0]MapCheck:Warning: Warning Polys_731 Polys /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush5.Model_8.Polys_731 : Externally referenced 
+[2015.01.08-21.15.36:495][  0]MapCheck:Warning: Warning Polys_178 Polys /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush7.Model_8.Polys_178 : Externally referenced 
+[2015.01.08-21.15.36:495][  0]MapCheck:Warning: Warning Polys_212 Polys /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush9.Model_8.Polys_212 : Externally referenced 
+[2015.01.08-21.15.36:496][  0]MapCheck:Warning: Warning ModelComponent_452 ModelComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.ModelComponent_452 : Externally referenced 
+[2015.01.08-21.15.36:496][  0]MapCheck:Warning: Warning ModelComponent_455 ModelComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.ModelComponent_455 : Externally referenced 
+[2015.01.08-21.15.36:496][  0]MapCheck:Warning: Warning ModelComponent_458 ModelComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.ModelComponent_458 : Externally referenced 
+[2015.01.08-21.15.36:496][  0]MapCheck:Warning: Warning ModelComponent_464 ModelComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.ModelComponent_464 : Externally referenced 
+[2015.01.08-21.15.36:497][  0]MapCheck:Warning: Warning ModelComponent_467 ModelComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.ModelComponent_467 : Externally referenced 
+[2015.01.08-21.15.36:497][  0]MapCheck:Warning: Warning ModelComponent_475 ModelComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.ModelComponent_475 : Externally referenced 
+[2015.01.08-21.15.36:499][  0]MapCheck:Warning: Warning Model_0 Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.Model_0 : Externally referenced 
+[2015.01.08-21.15.36:499][  0]MapCheck:Warning: Warning Polys_254 Polys /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush11.Model_8.Polys_254 : Externally referenced 
+[2015.01.08-21.15.36:499][  0]MapCheck:Warning: Warning Polys_1434 Polys /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush13.Model_7.Polys_1434 : Externally referenced 
+[2015.01.08-21.15.36:499][  0]MapCheck:Warning: Warning Polys_68 Polys /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush15.Model_7.Polys_68 : Externally referenced 
+[2015.01.08-21.15.36:500][  0]MapCheck:Warning: Warning Polys_4320 Polys /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush22.Model_14.Polys_4320 : Externally referenced 
+[2015.01.08-21.15.36:500][  0]MapCheck:Warning: Warning Polys_731 Polys /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush5.Model_8.Polys_731 : Externally referenced 
+[2015.01.08-21.15.36:500][  0]MapCheck:Warning: Warning Polys_178 Polys /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush7.Model_8.Polys_178 : Externally referenced 
+[2015.01.08-21.15.36:501][  0]MapCheck:Warning: Warning Polys_212 Polys /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush9.Model_8.Polys_212 : Externally referenced 
+[2015.01.08-21.15.36:501][  0]MapCheck:Warning: Warning ModelComponent_451 ModelComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.ModelComponent_451 : Externally referenced 
+[2015.01.08-21.15.36:501][  0]MapCheck:Warning: Warning ModelComponent_453 ModelComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.ModelComponent_453 : Externally referenced 
+[2015.01.08-21.15.36:501][  0]MapCheck:Warning: Warning Model_0 Model /Game/Maps/Example_Map.Example_Map:PersistentLevel.Model_0 : Externally referenced 
+[2015.01.08-21.15.36:502][  0]MapCheck:Warning: Warning Polys_2202 Polys /Game/Maps/Example_Map.Example_Map:PersistentLevel.BoxBrush20.Model_12.Polys_2202 : Externally referenced 
+[2015.01.08-21.15.36:502][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_01_163.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:502][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_162.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:502][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_173.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:503][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_189.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:503][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_241.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:503][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_337.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:504][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_370.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:504][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_456.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:504][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_5.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:504][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_515.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:506][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_559.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:507][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_6.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:507][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_64.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:507][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_02_47.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:508][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_101.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:508][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_103.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:508][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_107.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:508][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_117.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:509][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_119.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:509][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_121.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:509][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_127.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:509][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_132.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:510][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_135.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:510][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_136.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:510][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_140.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:510][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_142.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:511][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_143.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:511][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_145.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:511][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_15.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:512][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_150.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:513][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_154.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:513][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_16.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:513][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_163.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:514][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_17.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:514][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_170.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:514][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_172.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:514][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_180.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:514][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_201.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:514][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_21.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:514][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_223.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:514][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_228.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:514][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_268.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:514][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_272.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:515][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_310.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:515][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_34.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:515][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_344.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:515][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_346.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:515][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_348.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:515][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_35.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:515][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_355.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:520][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_37.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:520][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_377.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:521][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_39.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:521][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_398.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:521][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_4.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:521][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_44.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:521][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_453.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:521][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_46.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:521][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_47.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:521][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_48.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:521][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_49.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:521][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_50.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:522][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_55.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:522][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_550.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:522][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_552.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:522][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_56.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:522][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_59.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:522][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_60.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:522][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_67.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:522][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_68.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:525][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_71.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:525][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_73.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:525][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_74.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:525][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_76.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:525][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_8.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:525][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_84.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:525][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_90.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:525][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_91.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:525][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_92.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:525][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_93.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:526][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_94.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:526][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_98.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:526][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_106.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:526][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_137.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:526][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_144.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:526][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_147.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:526][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_235.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:526][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_314.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:526][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_470.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:526][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_487.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:528][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_53.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:528][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_79.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:528][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_04_314.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:528][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_161.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:528][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_244.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:529][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_248.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:529][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_30.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:529][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_31.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:529][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_33.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:529][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_367.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:529][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_383.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:529][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_406.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:529][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_409.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:529][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_518.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:529][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_569.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:530][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_573.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:530][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_05_306.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:530][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_118.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:530][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_126.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:530][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_156.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:530][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_167.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:532][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_176.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:532][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_194.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:532][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_20.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:532][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_22.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:532][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_23.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:532][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_318.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:532][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_378.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:532][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_392.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:532][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_396.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:533][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_402.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:533][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_403.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:533][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_413.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:533][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_414.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:533][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_462.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:533][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_478.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:533][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_484.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:533][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_69.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:533][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_7.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:533][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_75.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:534][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_87.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:535][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_88.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:535][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_96.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:535][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_99.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:535][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_06_325.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:536][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_157.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:536][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_166.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:536][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_169.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:536][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_174.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:536][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_285.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:536][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_289.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:536][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_387.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:536][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_389.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:536][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_407.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:536][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_45.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:537][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_481.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:537][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_502.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:537][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_562.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:537][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_565.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:537][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_72.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:537][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_07_25.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:539][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_192.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:539][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_332.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:539][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_400.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:539][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_08_168.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:539][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_10.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:539][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_183.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:539][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_27.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:539][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_331.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:539][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_393.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:540][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_40.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:540][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_417.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:540][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_451.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:540][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_459.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:540][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_466.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:540][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_09_14.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:540][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_102.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:540][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_105.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:540][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_110.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:540][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_125.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:541][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_131.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:543][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_133.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:543][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_175.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:543][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_207.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:543][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_261.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:544][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_286.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:544][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_293.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:544][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_321.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:544][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_352.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:544][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_371.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:544][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_54.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:544][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_61.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:544][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_85.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:544][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_86.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:544][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_10-A10.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:545][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_10-A11.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:545][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_10-A12_173.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:545][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_10-A13_172.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:545][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_10-A14_198.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:545][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_10-A15_231.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:545][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_10-A2_128.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:547][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_10-A3_159.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:547][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_10-A4_390.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:547][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_10-A5_11.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:547][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_10-A6_35.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:547][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_10-A7_112.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:547][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_10-A8_129.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:547][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_10-A9_149.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:547][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_10-A_152.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:548][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_10-B2_28.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:548][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_10-B3_359.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:548][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_10-B_309.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:548][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.Rock_10-C_143.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:548][  0]MapCheck:Warning: Warning ParticleSystemComponent0 ParticleSystemComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.P_Fire_2.ParticleSystemComponent0 : Externally referenced 
+[2015.01.08-21.15.36:548][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Chair_Wooden2_201.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:548][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Chair_Wooden3.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:548][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Crate_Wooden_Big2_184.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:548][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Crate_Wooden_Big3_187.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:548][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Crate_Wooden_Big4_530.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:549][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Crate_Wooden_Big_193.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:550][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Crate_Wooden_Small2.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:550][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Crate_Wooden_Small3.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:550][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Crate_Wooden_Small4_195.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:550][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Crate_Wooden_Small5_198.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:551][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Crate_Wooden_Small6_533.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:551][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Crate_Wooden_Small7_210.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:551][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Crate_Wooden_Small8_539.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:551][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Crate_Wooden_Small9_545.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:551][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Crate_Wooden_Small_198.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:551][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Fence_Wooden_136.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:551][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Ladder_Wooden2.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:551][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Ladder_Wooden3_39.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:551][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Ladder_Wooden4.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:552][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Ladder_Wooden_35.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:552][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Nail_01_49.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:552][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Nail_2.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:552][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Pallete_Wooden2_213.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:552][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Pallete_Wooden3.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:552][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Pallete_Wooden4.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:554][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Pallete_Wooden5.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:554][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Pallete_Wooden6.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:554][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Pallete_Wooden7.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:554][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Pallete_Wooden8.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:554][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Pallete_Wooden_42.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:554][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Railing_Stair_Wooden_Right2.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:554][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Railing_Stair_Wooden_Right3.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:554][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Railing_Stair_Wooden_Right_224.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:555][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Railing_Wooden_Corner2_80.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:555][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Railing_Wooden_Corner3.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:555][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Railing_Wooden_Corner_251.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:555][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Railing_Wooden_Standalone10.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:555][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Railing_Wooden_Standalone11.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:555][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Railing_Wooden_Standalone12.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:555][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Railing_Wooden_Standalone2_84.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:555][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Railing_Wooden_Standalone3.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:555][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Railing_Wooden_Standalone4_110.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:555][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Railing_Wooden_Standalone5.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:557][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Railing_Wooden_Standalone6.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:557][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Railing_Wooden_Standalone7.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:557][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Railing_Wooden_Standalone8.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:557][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Railing_Wooden_Standalone9.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:557][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Railing_Wooden_Standalone_242.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:558][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Scaffolding_Wooden_Basic2.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:558][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Scaffolding_Wooden_Basic_11.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:558][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Scaffolding_Wooden_Short2_336.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:558][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Scaffolding_Wooden_Short3.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:558][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Scaffolding_Wooden_Short4_154.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:558][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Scaffolding_Wooden_Short_115.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:558][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Scaffolding_Wooden_Tall10.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:558][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Scaffolding_Wooden_Tall11.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:558][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Scaffolding_Wooden_Tall12.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:559][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Scaffolding_Wooden_Tall13.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:559][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Scaffolding_Wooden_Tall14.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:559][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Scaffolding_Wooden_Tall15.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:559][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Scaffolding_Wooden_Tall16.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:559][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Scaffolding_Wooden_Tall17.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:561][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Scaffolding_Wooden_Tall18.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:561][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Scaffolding_Wooden_Tall19_128.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:561][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Scaffolding_Wooden_Tall2.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:561][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Scaffolding_Wooden_Tall20.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:561][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Scaffolding_Wooden_Tall21.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:561][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Scaffolding_Wooden_Tall22.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:561][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Scaffolding_Wooden_Tall23.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:561][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Scaffolding_Wooden_Tall24.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:561][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Scaffolding_Wooden_Tall25_340.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:561][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Scaffolding_Wooden_Tall26.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:562][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Scaffolding_Wooden_Tall27_422.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:562][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Scaffolding_Wooden_Tall28.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:562][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Scaffolding_Wooden_Tall3.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:562][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Scaffolding_Wooden_Tall4.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:562][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Scaffolding_Wooden_Tall5_73.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:562][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Scaffolding_Wooden_Tall6_77.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:562][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Scaffolding_Wooden_Tall7_66.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:562][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Scaffolding_Wooden_Tall8.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:564][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Scaffolding_Wooden_Tall9.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:564][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Scaffolding_Wooden_Tall_21.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:564][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Stair_Wooden2.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:564][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Stair_Wooden3_367.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:564][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Stair_Wooden4.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:564][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Stair_Wooden5_219.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:565][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Stair_Wooden6_206.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:565][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Stair_Wooden7.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:565][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Stair_Wooden8.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:565][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Stair_Wooden9_70.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:565][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Stair_Wooden_64.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:565][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_StorageRack_Wooden_Big_213.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:565][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_StorageRack_Wooden_Medium_176.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:565][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Support_Corner_Wooden_Tall10.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:565][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Support_Corner_Wooden_Tall2_57.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:565][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Support_Corner_Wooden_Tall9.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:566][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Support_Corner_Wooden_Tall_55.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:566][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Support_Wooden_Tall2_356.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:567][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Support_Wooden_Tall3_83.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:567][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Support_Wooden_Tall4_85.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:568][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Support_Wooden_Tall5_90.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:568][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Support_Wooden_Tall6_91.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:568][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Support_Wooden_Tall7_96.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:568][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Support_Wooden_Tall8_97.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:568][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Support_Wooden_Tall_326.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:568][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WalkWay_Set_Wooden_01_288.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:568][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WalkWay_Set_Wooden_10.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:568][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WalkWay_Set_Wooden_11.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:568][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WalkWay_Set_Wooden_13.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:568][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WalkWay_Set_Wooden_14.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:569][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WalkWay_Set_Wooden_15.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:569][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WalkWay_Set_Wooden_16.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:569][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WalkWay_Set_Wooden_160.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:569][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WalkWay_Set_Wooden_163.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:569][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WalkWay_Set_Wooden_169.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:569][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WalkWay_Set_Wooden_17.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:569][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WalkWay_Set_Wooden_175.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:571][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WalkWay_Set_Wooden_18.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:571][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WalkWay_Set_Wooden_2.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:571][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WalkWay_Set_Wooden_21.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:571][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WalkWay_Set_Wooden_215.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:571][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WalkWay_Set_Wooden_22.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:571][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WalkWay_Set_Wooden_23.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:571][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WalkWay_Set_Wooden_24.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:571][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WalkWay_Set_Wooden_330.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:572][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WalkWay_Set_Wooden_427.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:572][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WalkWay_Set_Wooden_6.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:572][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WalkWay_Set_Wooden_7.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:572][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WalkWay_Set_Wooden_74.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:572][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WalkWay_Set_Wooden_8.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:572][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WalkWay_Wooden_02_383.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:572][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WalkWay_Wooden_10.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:572][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WalkWay_Wooden_11.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:572][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WalkWay_Wooden_12.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:573][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WalkWay_Wooden_13.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:573][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WalkWay_Wooden_3.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:574][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WalkWay_Wooden_335.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:574][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WalkWay_Wooden_4.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:575][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WalkWay_Wooden_430.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:575][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WalkWay_Wooden_7.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:575][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WalkWay_Wooden_8.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:575][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WalkWay_Wooden_9.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:575][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Wall_Wooden_Tall_02_97.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:575][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Wall_Wooden_Tall_11.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:575][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Wall_Wooden_Tall_116.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:575][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Wall_Wooden_Tall_12.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:575][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Wall_Wooden_Tall_14.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:575][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Wall_Wooden_Tall_15.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:576][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Wall_Wooden_Tall_150.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:576][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Wall_Wooden_Tall_16.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:576][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Wall_Wooden_Tall_163.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:576][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Wall_Wooden_Tall_17.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:576][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Wall_Wooden_Tall_18.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:576][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Wall_Wooden_Tall_280.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:578][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Wall_Wooden_Tall_307.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:578][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Wall_Wooden_Tall_352.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:578][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Wall_Wooden_Tall_4.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:578][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Wall_Wooden_Tall_438.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:578][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Wall_Wooden_Tall_441.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:578][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Wall_Wooden_Tall_6.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:578][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Wall_Wooden_Tall_8.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:578][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_Wall_Wooden_Tall_9.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:579][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_01_227.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:579][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_12.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:579][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_13.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:579][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_16.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:579][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_18.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:579][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_19.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:579][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_20.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:579][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_21.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:579][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_22.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:580][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_23.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:580][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_24.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:581][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_25.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:581][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_26.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:582][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_27.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:582][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_28.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:582][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_29.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:582][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_30.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:582][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_31.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:582][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_32.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:582][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_33.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:582][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_34.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:582][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_35.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:583][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_36.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:583][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_37.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:583][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_38.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:583][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_39.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:583][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_40.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:583][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_52.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:583][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_76.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:583][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_02_371.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:585][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_3.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:586][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_03_386.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:586][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_11.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:586][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_14.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:586][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_15.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:586][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_266.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:586][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_4.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:586][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_42.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:586][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_43.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:586][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_44.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:587][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_444.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:587][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_448.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:587][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_5.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:587][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_6.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:587][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_7.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:587][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Beam_8.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:587][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Plank_02_83.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:587][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Plank_03_70.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:587][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Plank_04_65.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:589][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Plank_271.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:589][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Plank_Crack_01_60.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:589][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Plank_Crack_11.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:589][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Plank_Crack_12.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:589][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Plank_Crack_13.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:589][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Plank_Crack_131.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:590][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Plank_Crack_138.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:590][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Plank_Crack_144.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:590][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Plank_Crack_274.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:590][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Plank_Crack_7.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:590][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Plank_Crack_9.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:590][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Plank_Crack_02_49.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:590][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Plank_Crack_3.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:590][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Plank_Crack_4.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:590][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/Maps/Example_Map.Example_Map:PersistentLevel.SM_WoodBasic_Plank_Crack_55.StaticMeshComponent0 : Externally referenced 
+[2015.01.08-21.15.36:591][  0]MapCheck: Info Map check complete: 0 Error(s), 504 Warning(s), took 482.687ms to complete.
+[2015.01.08-21.15.36:614][  0]LogFileHelpers: Loading map 'Example_Map' took 9.046
+[2015.01.08-21.15.36:781][  0]LogCollectionManager: Loaded 0 collections in 0.016021 seconds
+[2015.01.08-21.15.36:888][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.01.08-21.15.36:892][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.01.08-21.15.36:931][  0]LogLoad: Full Startup: 24.72 seconds (BP compile: 0.08 seconds)
+[2015.01.08-21.15.36:946][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SculptedRockPack/Meshes'
+[2015.01.08-21.15.37:161][  0]LogRenderer:Warning: Reallocating scene render targets to support 1224x440.
+[2015.01.08-21.15.37:252][  0]LogRenderer:Warning: Reallocating scene render targets to support 1224x608.
+[2015.01.08-21.15.38:427][  4]LogAssetRegistry: Asset discovery search completed in 12.3763 seconds
+[2015.01.08-21.15.42:079][162]LogInit: Transaction tracking system initialized
+[2015.01.08-21.15.42:082][162]EditorErrors: New page: Matinee Initialization
+[2015.01.08-21.16.27:700][491]LogSavePackage: Save=22149.201172ms
+[2015.01.08-21.16.27:701][491]LogSavePackage: Moving '//bournemouth.ac.uk/data/student/home/DEC/i7671967/Unreal Projects/Assignment1/Saved/UEDPCExample_Map58FFF43F4DE825A88210E0B340FF8277.tmp' to '//bournemouth.ac.uk/data/student/home/DEC/i7671967/Unreal Projects/Assignment1/Saved/Autosaves/Game/Maps/UEDPCExample_Map.umap'
+[2015.01.08-21.20.57:763][316]LogSavePackage: Save=21901.310547ms
+[2015.01.08-21.20.57:763][316]LogSavePackage: Moving '//bournemouth.ac.uk/data/student/home/DEC/i7671967/Unreal Projects/Assignment1/Saved/UEDPCExample_Map0835C4BD4AA0EDD6C310EB9F9A48BBB1.tmp' to '//bournemouth.ac.uk/data/student/home/DEC/i7671967/Unreal Projects/Assignment1/Saved/Autosaves/Game/Maps/UEDPCExample_Map.umap'
+[2015.01.08-21.32.02:518][615]LogExit: Transaction tracking system shut down
+[2015.01.08-21.32.34:949][615]LogSavePackage: Save=23641.433594ms
+[2015.01.08-21.32.34:949][615]LogSavePackage: Moving '//bournemouth.ac.uk/data/student/home/DEC/i7671967/Unreal Projects/Assignment1/Saved/Example_Map40B0F60B47FECB3C727D83818EBE6399.tmp' to '//bournemouth.ac.uk/data/student/home/DEC/i7671967/Unreal Projects/Assignment1/Content/Maps/Example_Map.umap'
+[2015.01.08-21.32.35:096][615]LogFileHelpers: Saving map 'Example_Map' took 28.933
+[2015.01.08-21.32.35:388][616]Cmd: QUIT_EDITOR
+[2015.01.08-21.32.35:828][616]LogExit: Preparing to exit.
+[2015.01.08-21.32.36:068][616]LogExit: Editor shut down
+[2015.01.08-21.32.36:069][616]LogExit: Transaction tracking system shut down
+[2015.01.08-21.32.36:071][616]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019C00C20
+[2015.01.08-21.32.36:073][616]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002187D1C0
+[2015.01.08-21.32.36:074][616]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000234E5080
+[2015.01.08-21.32.36:118][616]LogExit: Object subsystem successfully closed.
+[2015.01.08-21.32.36:223][616]LogModuleManager: Shutting down and abandoning module DistCurveEditor (174)
+[2015.01.08-21.32.36:223][616]LogModuleManager: Shutting down and abandoning module Matinee (173)
+[2015.01.08-21.32.36:223][616]LogModuleManager: Shutting down and abandoning module SceneOutliner (172)
+[2015.01.08-21.32.36:223][616]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (171)
+[2015.01.08-21.32.36:223][616]LogModuleManager: Shutting down and abandoning module CrashTracker (170)
+[2015.01.08-21.32.36:223][616]LogModuleManager: Shutting down and abandoning module SuperSearch (169)
+[2015.01.08-21.32.36:223][616]LogModuleManager: Shutting down and abandoning module EditorWidgets (168)
+[2015.01.08-21.32.36:223][616]LogModuleManager: Shutting down and abandoning module CollectionManager (167)
+[2015.01.08-21.32.36:223][616]LogModuleManager: Shutting down and abandoning module StatsViewer (166)
+[2015.01.08-21.32.36:223][616]LogModuleManager: Shutting down and abandoning module FoliageEdit (165)
+[2015.01.08-21.32.36:223][616]LogModuleManager: Shutting down and abandoning module LandscapeEditor (164)
+[2015.01.08-21.32.36:223][616]LogModuleManager: Shutting down and abandoning module MeshPaint (163)
+[2015.01.08-21.32.36:223][616]LogModuleManager: Shutting down and abandoning module ActorPickerMode (162)
+[2015.01.08-21.32.36:223][616]LogModuleManager: Shutting down and abandoning module GeometryMode (161)
+[2015.01.08-21.32.36:223][616]LogModuleManager: Shutting down and abandoning module TextureAlignMode (160)
+[2015.01.08-21.32.36:225][616]LogModuleManager: Shutting down and abandoning module BspMode (159)
+[2015.01.08-21.32.36:225][616]LogModuleManager: Shutting down and abandoning module PlacementMode (158)
+[2015.01.08-21.32.36:225][616]LogModuleManager: Shutting down and abandoning module AutomationWorker (157)
+[2015.01.08-21.32.36:225][616]LogModuleManager: Shutting down and abandoning module CharacterAI (156)
+[2015.01.08-21.32.36:225][616]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (155)
+[2015.01.08-21.32.36:225][616]LogModuleManager: Shutting down and abandoning module IntroTutorials (154)
+[2015.01.08-21.32.36:225][616]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (153)
+[2015.01.08-21.32.36:225][616]LogModuleManager: Shutting down and abandoning module HardwareTargeting (152)
+[2015.01.08-21.32.36:225][616]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (151)
+[2015.01.08-21.32.36:225][616]LogModuleManager: Shutting down and abandoning module UndoHistory (150)
+[2015.01.08-21.32.36:226][616]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (149)
+[2015.01.08-21.32.36:226][616]LogModuleManager: Shutting down and abandoning module UserFeedback (148)
+[2015.01.08-21.32.36:226][616]LogModuleManager: Shutting down and abandoning module XmlParser (147)
+[2015.01.08-21.32.36:226][616]LogModuleManager: Shutting down and abandoning module Blutility (146)
+[2015.01.08-21.32.36:226][616]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (145)
+[2015.01.08-21.32.36:226][616]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (144)
+[2015.01.08-21.32.36:226][616]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (143)
+[2015.01.08-21.32.36:226][616]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (142)
+[2015.01.08-21.32.36:226][616]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (141)
+[2015.01.08-21.32.36:226][616]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (140)
+[2015.01.08-21.32.36:226][616]LogModuleManager: Shutting down and abandoning module InputBindingEditor (139)
+[2015.01.08-21.32.36:226][616]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (138)
+[2015.01.08-21.32.36:226][616]LogModuleManager: Shutting down and abandoning module SettingsEditor (137)
+[2015.01.08-21.32.36:226][616]LogModuleManager: Shutting down and abandoning module ProjectLauncher (136)
+[2015.01.08-21.32.36:226][616]LogModuleManager: Shutting down and abandoning module SessionFrontend (135)
+[2015.01.08-21.32.36:226][616]LogModuleManager: Shutting down and abandoning module ProfilerClient (134)
+[2015.01.08-21.32.36:226][616]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (133)
+[2015.01.08-21.32.36:227][616]LogModuleManager: Shutting down and abandoning module DeviceManager (132)
+[2015.01.08-21.32.36:227][616]LogModuleManager: Shutting down and abandoning module AutomationController (131)
+[2015.01.08-21.32.36:227][616]LogModuleManager: Shutting down and abandoning module AutomationWindow (130)
+[2015.01.08-21.32.36:227][616]LogModuleManager: Shutting down and abandoning module Layers (129)
+[2015.01.08-21.32.36:227][616]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (128)
+[2015.01.08-21.32.36:227][616]LogModuleManager: Shutting down and abandoning module DetailCustomizations (127)
+[2015.01.08-21.32.36:227][616]LogModuleManager: Shutting down and abandoning module PackagesDialog (126)
+[2015.01.08-21.32.36:227][616]LogModuleManager: Shutting down and abandoning module AssetRegistry (125)
+[2015.01.08-21.32.36:568][616]LogModuleManager: Shutting down and abandoning module Persona (124)
+[2015.01.08-21.32.36:568][616]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.01.08-21.32.36:568][616]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.01.08-21.32.36:568][616]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.01.08-21.32.36:570][616]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.01.08-21.32.36:570][616]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.01.08-21.32.36:570][616]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.01.08-21.32.36:570][616]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.01.08-21.32.36:570][616]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.01.08-21.32.36:570][616]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.01.08-21.32.36:570][616]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.01.08-21.32.36:571][616]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.01.08-21.32.36:571][616]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.01.08-21.32.36:571][616]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.01.08-21.32.36:571][616]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.01.08-21.32.36:571][616]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.01.08-21.32.36:571][616]LogModuleManager: Shutting down and abandoning module AIModule (108)
+[2015.01.08-21.32.36:571][616]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
+[2015.01.08-21.32.36:592][616]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
+[2015.01.08-21.32.36:592][616]LogModuleManager: Shutting down and abandoning module GameplayDebugger (105)
+[2015.01.08-21.32.36:592][616]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.01.08-21.32.36:592][616]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.01.08-21.32.36:592][616]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.01.08-21.32.36:592][616]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.01.08-21.32.36:592][616]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.01.08-21.32.36:592][616]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.01.08-21.32.36:592][616]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.01.08-21.32.36:592][616]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.01.08-21.32.36:592][616]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
+[2015.01.08-21.32.36:592][616]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
+[2015.01.08-21.32.36:593][616]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (94)
+[2015.01.08-21.32.36:593][616]LogModuleManager: Shutting down and abandoning module UObjectPlugin (93)
+[2015.01.08-21.32.36:593][616]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (92)
+[2015.01.08-21.32.36:593][616]LogModuleManager: Shutting down and abandoning module SourceControl (91)
+[2015.01.08-21.32.36:593][616]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (90)
+[2015.01.08-21.32.36:593][616]LogModuleManager: Shutting down and abandoning module BlankPlugin (89)
+[2015.01.08-21.32.36:593][616]LogModuleManager: Shutting down and abandoning module SlateReflector (88)
+[2015.01.08-21.32.36:593][616]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2015.01.08-21.32.36:593][616]LogModuleManager: Shutting down and abandoning module HotReload (86)
+[2015.01.08-21.32.36:593][616]LogModuleManager: Shutting down and abandoning module MainFrame (85)
+[2015.01.08-21.32.36:593][616]LogModuleManager: Shutting down and abandoning module LevelEditor (84)
+[2015.01.08-21.32.36:595][616]LogModuleManager: Shutting down and abandoning module ViewportSnapping (83)
+[2015.01.08-21.32.36:595][616]LogModuleManager: Shutting down and abandoning module SmartSnapping (82)
+[2015.01.08-21.32.36:597][616]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (81)
+[2015.01.08-21.32.36:597][616]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (80)
+[2015.01.08-21.32.36:597][616]LogModuleManager: Shutting down and abandoning module ContentBrowser (79)
+[2015.01.08-21.32.36:597][616]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
+[2015.01.08-21.32.36:597][616]LogModuleManager: Shutting down and abandoning module ScriptPlugin (77)
+[2015.01.08-21.32.36:597][616]LogModuleManager: Shutting down and abandoning module UdpMessaging (76)
+[2015.01.08-21.32.36:698][616]LogModuleManager: Shutting down and abandoning module Paper2D (75)
+[2015.01.08-21.32.36:698][616]LogModuleManager: Shutting down and abandoning module UE4Game (74)
+[2015.01.08-21.32.36:698][616]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (73)
+[2015.01.08-21.32.36:703][616]LogModuleManager: Shutting down and abandoning module Media (72)
+[2015.01.08-21.32.36:703][616]LogModuleManager: Shutting down and abandoning module WmfMedia (71)
+[2015.01.08-21.32.36:704][616]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2015.01.08-21.32.36:704][616]LogModuleManager: Shutting down and abandoning module PropertyEditor (69)
+[2015.01.08-21.32.36:704][616]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (68)
+[2015.01.08-21.32.36:704][616]LogModuleManager: Shutting down and abandoning module FunctionalTesting (67)
+[2015.01.08-21.32.36:704][616]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (66)
+[2015.01.08-21.32.36:704][616]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (65)
+[2015.01.08-21.32.36:704][616]LogModuleManager: Shutting down and abandoning module MessageLog (64)
+[2015.01.08-21.32.36:704][616]LogModuleManager: Shutting down and abandoning module Sequencer (63)
+[2015.01.08-21.32.36:704][616]LogModuleManager: Shutting down and abandoning module AssetTools (62)
+[2015.01.08-21.32.36:704][616]LogModuleManager: Shutting down and abandoning module UMGEditor (61)
+[2015.01.08-21.32.36:704][616]LogModuleManager: Shutting down and abandoning module UMG (60)
+[2015.01.08-21.32.36:704][616]LogModuleManager: Shutting down and abandoning module Slate (59)
+[2015.01.08-21.32.36:704][616]LogModuleManager: Shutting down and abandoning module EditorStyle (58)
+[2015.01.08-21.32.36:718][616]LogModuleManager: Shutting down and abandoning module SessionServices (57)
+[2015.01.08-21.32.36:718][616]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (56)
+[2015.01.08-21.32.36:718][616]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (55)
+[2015.01.08-21.32.36:718][616]LogModuleManager: Shutting down and abandoning module XAudio2 (54)
+[2015.01.08-21.32.36:718][616]LogModuleManager: Shutting down and abandoning module Networking (52)
+[2015.01.08-21.32.36:718][616]LogModuleManager: Shutting down and abandoning module Core (51)
+[2015.01.08-21.32.36:718][616]LogModuleManager: Shutting down and abandoning module KismetCompiler (50)
+[2015.01.08-21.32.36:718][616]LogModuleManager: Shutting down and abandoning module PhysXFormats (49)
+[2015.01.08-21.32.36:718][616]LogModuleManager: Shutting down and abandoning module MeshUtilities (48)
+[2015.01.08-21.32.36:718][616]LogModuleManager: Shutting down and abandoning module DerivedDataCache (47)
+[2015.01.08-21.32.36:743][616]LogDerivedDataCache: Shutdown
+[2015.01.08-21.32.36:743][616]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (46)
+[2015.01.08-21.32.36:743][616]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (45)
+[2015.01.08-21.32.36:743][616]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (44)
+[2015.01.08-21.32.36:743][616]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (43)
+[2015.01.08-21.32.36:745][616]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (42)
+[2015.01.08-21.32.36:745][616]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (41)
+[2015.01.08-21.32.36:745][616]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (40)
+[2015.01.08-21.32.36:745][616]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (39)
+[2015.01.08-21.32.36:745][616]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (38)
+[2015.01.08-21.32.36:745][616]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (37)
+[2015.01.08-21.32.36:745][616]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (36)
+[2015.01.08-21.32.36:745][616]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (35)
+[2015.01.08-21.32.36:745][616]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (34)
+[2015.01.08-21.32.36:745][616]LogModuleManager: Shutting down and abandoning module Messaging (33)
+[2015.01.08-21.32.36:745][616]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
+[2015.01.08-21.32.36:745][616]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.01.08-21.32.36:745][616]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.01.08-21.32.36:745][616]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.01.08-21.32.36:745][616]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (28)
+[2015.01.08-21.32.36:745][616]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (27)
+[2015.01.08-21.32.36:745][616]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.01.08-21.32.36:745][616]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.01.08-21.32.36:745][616]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.01.08-21.32.36:745][616]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.01.08-21.32.36:745][616]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.01.08-21.32.36:745][616]LogModuleManager: Shutting down and abandoning module TargetPlatform (21)
+[2015.01.08-21.32.36:745][616]LogModuleManager: Shutting down and abandoning module InputCore (20)
+[2015.01.08-21.32.36:745][616]LogModuleManager: Shutting down and abandoning module Settings (19)
+[2015.01.08-21.32.36:745][616]LogModuleManager: Shutting down and abandoning module ImageWrapper (18)
+[2015.01.08-21.32.36:745][616]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.01.08-21.32.36:745][616]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.01.08-21.32.36:745][616]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.01.08-21.32.36:745][616]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.01.08-21.32.36:746][616]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.01.08-21.32.36:746][616]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.01.08-21.32.36:747][616]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.01.08-21.32.36:747][616]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.01.08-21.32.36:747][616]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.01.08-21.32.36:747][616]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.01.08-21.32.36:747][616]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.01.08-21.32.36:747][616]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.01.08-21.32.36:747][616]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.01.08-21.32.36:748][616]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.01.08-21.32.36:748][616]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.01.08-21.32.36:749][616]LogExit: Exiting.
+[2015.01.08-21.32.36:814][616]Log file closed, 01/08/15 21:32:36
